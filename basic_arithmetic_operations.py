@@ -8,8 +8,6 @@ def lcm(a, b):
 
 def pow(a, b):
     return a**b
-
-def 
      
 def basic_arithmetic(a, b):
     print("a + b = ",a + b)
