@@ -8,6 +8,14 @@ def lcm(a,b):
 
 def pow(a, b):
     return a**b
+
+def compare(a, b):
+    if a > b:
+        print("a > b")
+    elif a == b:
+        print("a = b")
+    elif a < b:
+        print("a < b")
      
 def basic_arithmetic(a, b):
     print("a + b = ",a + b)
@@ -25,6 +33,7 @@ def main():
     print("gcd(a, b) = ",gcd(a, b))
     print("lcm(a, b) = ",lcm(a, b))
     print("aのb乗",pow(a, b))
+    compare(a, b)
     
 if __name__ == "__main__":
     main()
